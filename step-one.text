@@ -1,0 +1,9 @@
+  doublerAppend  |   doublerInsert
+1)xlArr insert 855.721686 ms| append 3.903438 ms
+2)lArr insert 7.384792 ms| append 785.93 μs
+3)medArr insert 200.578 μs | append 177.966 μs 
+4)smallArray insert 59.486 μs | append 132.931 μs 
+5)tinyArray insert 46.316 μs | append 107.714 μs
+
+Looking at the two functions I noticed that the doublerInsert runs faster while passing through arrays larger arrays compared to the doublerAppend function. To where the doubleAppend Function
+Runs a lot faster with smaller arrays. You start to see the gap close right around 1000 arrays
