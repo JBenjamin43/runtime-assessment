@@ -14,7 +14,7 @@ for (let i = 0; i < array.length; i++) {
 }
 
 addToZero([2,-2])
-///// 1) this would be 0(n)/////
+///// 1) this would be 0(n^2)/////
 
 hasUniqueChars = (word) => {
 
@@ -30,7 +30,7 @@ hasUniqueChars = (word) => {
     }
 }
 hasUniqueChars("boy")
-/////0(n^2)///////
+//////// 2) 0(n^2) //////////
 
 isPangram = (str) => {
     let newArr = []
@@ -50,7 +50,7 @@ isPangram = (str) => {
 
 isPangram("I like cats, but not mice")
 
-/////////O(n^2)//////////////
+///////// 3) O(n^2) //////////////
 
 
 findLongestWord = (array) => {
@@ -65,3 +65,6 @@ let max = 0
 }
 
 findLongestWord(["hi", "hello"])
+
+
+/////////0(n)///////////
